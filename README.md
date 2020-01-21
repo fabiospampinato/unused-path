@@ -18,7 +18,7 @@ npm install --save unused-path
 ## Usage
 
 ```ts
-import unusedPath from 'unused-path';
+import * as unusedPath from 'unused-path';
 
 unusedPath.get // Exposes "get-unused-path"
 unusedPath.copy // Exposes "copy-unused-path"
