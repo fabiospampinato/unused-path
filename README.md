@@ -20,10 +20,10 @@ npm install --save unused-path
 ```ts
 import unusedPath from 'unused-path';
 
-unusedPath.get // Exposes "get-unused-path"
-unusedPath.copy // Exposes "copy-unused-path"
-unusedPath.move // Exposes "move-unused-path"
-unusedPath.write // Exposes "write-unused-path"
+unusedPath.get; // Exposes "get-unused-path"
+unusedPath.copy; // Exposes "copy-unused-path"
+unusedPath.move; // Exposes "move-unused-path"
+unusedPath.write; // Exposes "write-unused-path"
 ```
 
 ## License

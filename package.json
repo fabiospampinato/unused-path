@@ -11,7 +11,7 @@
     "clean": "tsex clean",
     "compile": "tsex compile",
     "compile:watch": "tsex compile --watch",
-    "prepublishOnly": "npm run clean && npm run compile"
+    "prepublishOnly": "tsex prepare"
   },
   "keywords": [
     "get",
@@ -28,7 +28,7 @@
     "write-unused-path": "^2.0.0"
   },
   "devDependencies": {
-    "tsex": "^1.1.2",
-    "typescript": "^4.8.4"
+    "tsex": "^2.1.0",
+    "typescript": "^4.9.5"
   }
 }
